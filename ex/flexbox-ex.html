@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>flexbox1</title>
+    <style>
+    .notifications{
+      width: 250px;
+      border-width: 1px;
+      border-color: rgb(152, 151, 151);
+      border-radius: 4px;
+      border-style: solid;
+      padding-left: 7px;
+      padding-right: 7px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      }
+
+    .button{
+      border: none;
+      background-color: rgb(36, 110, 212);
+      color: aliceblue;
+      border-radius: 8px;
+      font-weight: 600;
+      padding-left: 8px;
+      padding-right: 8px;
+      }
+    </style>
+   
+  </head>
+  <body>
+    <div class="notifications">
+      <div style="display: flex; flex-direction: row;justify-content: space-between;height: 20px; margin-bottom: 7px;">
+       <div>Home</div> 
+       <div><button class="button">14</button></div>
+      </div>
+      <div style="display: flex; flex-direction: row;justify-content: space-between;height: 20px; margin-bottom: 7px;">
+        <div>Notifications</div> 
+        <div><button class="button">4</button></div>
+       </div>
+       <div style="display: flex; flex-direction: row;justify-content: space-between;height: 20px; margin-bottom: 7px;">
+        <div>Messages</div> 
+        <div><button class="button">5</button></div>
+       </div>
+    </div>
+  </body>
+</html>

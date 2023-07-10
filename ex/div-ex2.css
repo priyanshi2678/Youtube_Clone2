@@ -1,0 +1,42 @@
+.image{
+  width: 300px;
+  object-fit: contain;
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+.logo{
+  text-align: center;
+}
+.Search-bar{
+  font-size: 20px;
+  width: 700px;
+  border-radius: 30px;
+  border: none;
+  box-shadow:  0 2px 10px rgba(62, 55, 55, 0.4);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+.searchbox{
+  text-align: center;
+}
+.buttons{
+  text-align: center;
+}
+.GS{
+  border: none;
+  width:150px;
+  margin-right: 10px;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.FS{
+  border: none;
+  width:150px;
+  margin-right: 10px;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
